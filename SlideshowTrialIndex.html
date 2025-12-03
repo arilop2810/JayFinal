@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Slideshow Gallery</title>
+
+     <link rel="stylesheet" href="./SlideshowTrialStyles.css">
+</head>
+<body>
+    <!-- Cointainer for the Jay image gallery here -->
+     <div class="Imagecontainer">
+
+
+        <!-- full width images with number text -->
+         <!-- 1 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">1 / 12</div>
+           <img src="AnOutsideJay.jpg">
+         </div>
+
+         <!-- 2 -->
+        <div class="JaySlidesImages">
+            <div class="numbertext">2 / 12</div>
+           <img src="1SunBathJay.jpg">
+         </div>
+
+          <!-- 3 -->
+        <div class="JaySlidesImages">
+            <div class="numbertext">3 / 12</div>
+           <img src="SunnyDog.jpg">
+         </div>
+
+            <!-- 4 -->
+        <div class="JaySlidesImages">
+            <div class="numbertext">4 / 12</div>
+           <img src="SunnyDog2.jpg">
+         </div>
+
+         <!-- 5 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">5 / 12</div>
+           <img src="SunnyJay.jpg">
+         </div>
+
+         <!-- 6 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">6 / 12</div>
+           <img src="WideSmileJay.jpg">
+         </div>
+          <!-- 7 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">7 / 12</div>
+           <img src="CookieDog.jpg">
+         </div>
+          <!-- 8 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">8 / 12</div>
+           <img src="HappiJaySun.jpg">
+         </div>
+          <!-- 9 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">9 / 12</div>
+           <img src="Jay.jpg">
+         </div>
+         <!-- 10 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">10 / 12</div>
+           <img src="SillyJay.jpg">
+         </div>
+         <!-- 11 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">11 / 12</div>
+           <img src="BabyJay0.jpg">
+         </div>
+         <!-- 12 -->
+         <div class="JaySlidesImages">
+            <div class="numbertext">12 / 12</div>
+           <img src="babyeepypupJay.jpg">
+         </div>
+
+         <!-- Next and previous buttons -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+
+
+         </div>
+
+         
+
+         <!-- image text//Captions -->
+          <div class="caption-container">
+            <p id="caption"></p>
+
+          </div>
+
+          <!-- Thumbnail Images -->
+           <div class="row">
+           <div class="column">
+           <img class= "demo cursor" src="AnOutsideJay.jpg" style="width:100%" onclick="currentSlide(1)" alt="Jay Outside">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="1SunBathJay.jpg" style="width:100%" onclick="currentSlide(2)" alt="Jay Is being mischievious here">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="SunnyDog.jpg" style="width:100%" onclick="currentSlide(3)" alt="Jay being Smiley">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="SunnyDog2.jpg" style="width:100%" onclick="currentSlide(4)" alt="Jays Good Angle (he has no bad ones)">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="SunnyJay.jpg" style="width:100%" onclick="currentSlide(5)" alt="Candid Jay photo (rare)">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="WideSmileJay.jpg" style="width:100%" onclick="currentSlide(6)" alt="Jay is happy to see you">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="CookieDog.jpg" style="width:100%" onclick="currentSlide(7)" alt="Jay cant have the cookie (dw he got his own soon after)">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="HappiJaySun.jpg" style="width:100%" onclick="currentSlide(8)" alt="Jay enjoys the sun very much">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="Jay.jpg" style="width:100%" onclick="currentSlide(9)" alt="Jay Laying down, his favorite pastime">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="SillyJay.jpg" style="width:100%" onclick="currentSlide(10)" alt="Jay is so silly sometimes">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="BabyJay0.jpg" style="width:100%" onclick="currentSlide(11)" alt="Jay as a baby puppy">
+           </div>
+           <div class="column">
+           <img class= "demo cursor" src="babyeepypupJay.jpg" style="width:100%" onclick="currentSlide(12)" alt="Jay the day we first saw him">
+           </div>
+
+
+
+
+
+     </div>
+
+     <!-- Load the Javascript at the end so DOM exists -->
+      <script src="./SlideTrial.js"></script>
+
+    
+</body>
+</html>
